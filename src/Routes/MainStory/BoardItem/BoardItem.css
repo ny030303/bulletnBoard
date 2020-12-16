@@ -1,0 +1,52 @@
+
+.feed li.board_item {
+    display: table;
+    position: relative;
+    width: 100%;
+    border-bottom: .5px solid #e6e6e6;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.board_item .txt_area {
+    display: table-cell;
+    width: 100%;
+    padding: 11px 12px 11px 0;
+}
+
+.board_item .icon_new_txt {
+    display: inline-block;
+    position: absolute;
+    top: auto;
+    left: -15px;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 0;
+    color: #8e54e9;
+}
+
+.txt_area .tit {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.txt_area .user_area {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #979797;
+}
+.txt_area .user_area .nick {
+    display: table-cell;
+}
+.txt_area .user_area .time {
+    display: table-cell;
+    padding-left: 7px;
+    white-space: nowrap;
+}
+.txt_area .user_area .no {
+    display: table-cell;
+    padding-left: 8px;
+    white-space: nowrap;
+}

@@ -1,0 +1,22 @@
+.edit-page {
+    padding: 20px;
+}
+
+.edit-page input {
+}
+.edit-header {
+    display: flex;
+    justify-content: space-between;
+    /*border-bottom: 1px solid rgba(0,0,0,.07);*/
+    /*margin-bottom: 5px;*/
+}
+.e-close-btn {
+    background-color: rgba(0,0,0,0);
+    outline: none !important;
+    border: none;
+    font-size: 2em;
+}
+
+.e-edit-btn {
+    height: 37px;
+}
